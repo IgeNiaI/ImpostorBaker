@@ -13,10 +13,25 @@
 	"CanContainContent": true,
 	"IsBetaVersion": false,
 	"Installed": false,
-	"Plugins": [                       
-		{                              
-		"Name": "BlueprintMaterialTextureNodes",    
-		"Enabled": true                
-		}                              
-	]                    
+	"Plugins": [
+		{
+			"Name": "BlueprintMaterialTextureNodes",
+			"Enabled": true
+		},
+		{
+			"Name": "ProceduralMeshComponent",
+			"Enabled": true
+		}
+	],
+    "Modules": [
+        {
+            "Name": "ImpostorBaker",
+            "Type": "Runtime",
+            "LoadingPhase": "Default",
+            "WhitelistPlatforms": [
+                "Win64",
+                "Mac"
+            ]
+        }
+    ]
 }
